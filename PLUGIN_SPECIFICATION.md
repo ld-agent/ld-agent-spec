@@ -187,9 +187,9 @@ All plugin functions should:
 
 ### Parameter Annotations
 
-**Python**: Use `typing.Annotated` with Pydantic `Field`
-**Go**: Use struct tags for parameter metadata
-**TypeScript**: Use JSDoc comments or schema definitions
+- **Python**: Use `typing.Annotated` with Pydantic `Field`
+- **Go**: Use struct tags for parameter metadata
+- **TypeScript**: Use JSDoc comments or schema definitions
 
 ## Environment Variables
 
