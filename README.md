@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains the official plugin specification for **ld-agent** - a dynamic linker for agentic AI systems. Just as `ld-so` discovers, loads, and links shared objects at runtime, ld-agent discovers, loads, and links AI capabilities at runtime to create composable AI systems.
+This repository contains the official plugin specification for **ld-agent**.
 
 ## What's in this Repository
 
@@ -91,7 +91,7 @@ Use our validation tools to ensure your plugins conform to the specification:
 python -m ldagent.validate my_plugin.py
 
 # Validate Go plugin  
-go run github.com/your-org/ld-agent-go/cmd/validate my_plugin.so
+go run github.com/ld-agent/ld-agent-go/cmd/validate my_plugin.so
 
 # Validate TypeScript plugin
 npx ld-agent-typescript validate my_plugin.ts
@@ -116,10 +116,10 @@ To be considered compliant, plugin implementations must:
 
 ## Community
 
-- 🐛 [Report Issues](https://github.com/your-org/ld-agent-spec/issues)
-- 💬 [Discussions](https://github.com/your-org/ld-agent-spec/discussions)  
-- 🔧 [Plugin Registry](https://github.com/your-org/ld-agent-plugins)
-- 🌟 [Awesome Plugins](https://github.com/your-org/awesome-ld-agent)
+- 🐛 [Report Issues](https://github.com/ld-agent/ld-agent-spec/issues)
+- 💬 [Discussions](https://github.com/ld-agent/ld-agent-spec/discussions)  
+- 🔧 [Plugin Registry](https://github.com/ld-agent/ld-agent-plugins)
+- 🌟 [Awesome Plugins](https://github.com/ld-agent/awesome-ld-agent)
 
 ## License
 
