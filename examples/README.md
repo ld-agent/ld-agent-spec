@@ -36,7 +36,7 @@ Each language implementation provides validation tools:
 python -m ldagent.validate your_plugin.py
 
 # Go  
-go run github.com/your-org/ld-agent-go/cmd/validate your_plugin.so
+go run github.com/ld-agent/ld-agent-go/cmd/validate your_plugin.so
 
 # TypeScript
 npx ld-agent-typescript validate your_plugin.ts
