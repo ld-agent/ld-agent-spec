@@ -1,9 +1,5 @@
 # ld-agent Architecture
 
-## Overview
-
-**ld-agent** is a dynamic linker for agentic systems, inspired by traditional dynamic linkers like `ld-so`. Just as `ld-so` discovers, loads, and links shared libraries at runtime to create executable programs, ld-agent discovers, loads, and links agentic capabilities at runtime to create composable AI systems.
-
 ## Core Concepts
 
 ### Dynamic Linking for AI
